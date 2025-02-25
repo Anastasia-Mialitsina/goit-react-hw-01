@@ -1,0 +1,23 @@
+/* src/components/FriendListItem.css */
+.friend-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.friend-list-item img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.friend-list-item p {
+  margin: 0;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

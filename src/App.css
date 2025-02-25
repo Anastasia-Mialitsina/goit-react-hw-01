@@ -40,9 +40,49 @@
 .read-the-docs {
   color: #888;
 }
+/* 2 */
 .app {
   display: flex;
-  justify-content: center;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+  height: auto; 
+}
+.friend-list {
+  margin-top: 10px;
+}
+ul {
+gap: 15px;
+list-style: none;
+display: flex;
+}
+.friend-list-item {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   align-items: center;
-  height: 100vh;  
+  border: 1px solid black; 
+  padding: 40px;  
+  border-radius: 10px;  
+  background-color: #f0f0f0;  
+  transition: transform 0.3s; 
+  margin-bottom: 0; 
+}
+.friend-list-item:hover {
+  transform: scale(1.05);  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+}
+.friend-list-item img {
+  width: 100px;  
+  height: 100px;    
+}
+.online {
+  color: green;
+}
+.offline {
+  color: red;
+}
+img {
+margin: 0;
 }
