@@ -5,7 +5,7 @@
   border: 1px solid #112a15;
   border-radius: 10px;
   text-align: center;
-  background-color: #c6e1d5;
+  background-color: #0f1211;
 }
 .avatar {
   width: 400px;
@@ -14,10 +14,11 @@
 .name {
   font-size: 20px;
   font-weight: bold;
+  color: #fff;
 }
 .tag,
 .location {
-  color: rgb(17, 8, 8);
+  color: #fff;
 }
 .stats {
   list-style: none;
@@ -33,8 +34,9 @@
 }
 .label {
   font-size: 14px;
-  color: gray;
+  color: #fff;
 }
 .value {
+  color: rgb(167, 247, 47);
   font-weight: bold;
 }
